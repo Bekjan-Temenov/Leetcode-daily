@@ -3,6 +3,15 @@
 var createHelloWorld = function() {
     
     return function(...args) {
-        
+        args.forEach(arg => console.log(arg));
     }
+};
+
+
+14.10.2025 ,27: solved task 
+var createCounter = function(n) {
+    
+    return function() {
+        n++
+    };
 };
