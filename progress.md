@@ -15,3 +15,12 @@ var createCounter = function(n) {
         n++
     };
 };
+
+
+
+class Solution {
+public:
+    vector<int> twoSum(vector<int>& nums, int target) {
+        
+    }
+};
